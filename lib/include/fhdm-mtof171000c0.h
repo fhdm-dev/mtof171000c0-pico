@@ -21,6 +21,10 @@
 #define DEBUG_PRINT(fmt, args...)
 #endif
 
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 struct fhdm_mtof171000c0 {
 
     // Public functions
@@ -45,5 +49,9 @@ struct fhdm_mtof171000c0 {
 //
 
 void _fhdm_mtof171000c0_new(struct fhdm_mtof171000c0* mtof171000c0);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif // __FHDM_MTOF171000C0__
